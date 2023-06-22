@@ -1,0 +1,94 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #1d2b3a;
+  color: white;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+ 
+}
+.inputbox{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background-color :#1d2b3a;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+}
+.tablehead{
+  color: white;
+  font-size: 20px;
+}
+.tablebody{
+  color: white;
+}
+.btn{
+ 
+  border: 1px solid rgb(233,211,211);
+  background-color: aqua;
+ 
+}
+
+@media screen and (max-width:600px){
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1d2b3a;
+    color: white;
+  }
+  .tablehead{
+    color: white;
+    font-size :14px;
+    width: 90%;
+  }
+  .tablebody{
+    color: white;
+    font-size: 15px;
+  }
+  .btn{
+    padding: 1px 11px 1px 11px;
+    margin: 0;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width:440px){
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1d2b3a;
+    color: white;
+  }
+  .tablehead{
+    color: #ffffff;
+    font-size :8px;
+    width:75%;
+  }
+  .tablebody{
+    color: white;
+    font-size: 9px;
+  }
+  .btn{
+    padding: 1px 9px 1px 9px;
+    margin: 0;
+    font-size: 3px;
+  }
+}
